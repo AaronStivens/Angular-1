@@ -11,7 +11,11 @@ import { faFish } from '@fortawesome/free-solid-svg-icons';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import 'hammerjs';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatRippleModule} from '@angular/material/core';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 
 
 @NgModule({
@@ -24,7 +28,12 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     FontAwesomeModule,
     MatToolbarModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatIconModule,
+    MatRippleModule,
+    MatSidenavModule,
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

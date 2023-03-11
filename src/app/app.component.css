@@ -7,3 +7,55 @@
     font-family: roboto, sans-serif;
 }
 
+.mat-icon-button-rounded {
+    border-radius: 50%;
+    padding: 8px;
+    border: 0;
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  .mat-menu-panel {
+    left: -60% !important;
+    width: 300% !important;
+  }
+  .menu-panel {
+    left: -60% !important;
+    width: 300% !important;
+    font-size: 100px;
+  }
+
+  .menu-button{
+   background-color: transparent;
+   color: aliceblue;
+  }
+
+  .Titulo{
+    margin: 10px;
+  }
+
+  .sidenav-container {
+    height: calc(100% - 80px);
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(90, 138, 226);
+  }
+
+  .sidenav a{
+    margin-top: 20px;
+  }
+
+  mat-line{
+    color: rgb(255, 255, 255);
+  }
+  
+  .mat-drawer-inner-container {
+    height: 100%;
+  }
+
+  .Barra{
+    height: 150px;
+  }
