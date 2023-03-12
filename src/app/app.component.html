@@ -13,11 +13,11 @@
             <mat-icon mat-list-icon>home</mat-icon>
             <span mat-line [ngStyle]="{'color': sidenavTextColor}">Direccion</span>
           </a>
-          <a mat-list-item href="#">
+          <a mat-list-item (click)="openDialog2()">
             <mat-icon mat-list-icon>phone</mat-icon>
             <span mat-line [ngStyle]="{'color': sidenavTextColor}">Contacto</span>
           </a>
-          <a mat-list-item href="#">
+          <a mat-list-item (click)="openDialog3()">
             <mat-icon mat-list-icon>assignment</mat-icon>
             <span mat-line [ngStyle]="{'color': sidenavTextColor}">Blog</span>
           </a>
