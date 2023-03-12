@@ -15,10 +15,7 @@ import {MatRippleModule} from '@angular/material/core';//Modulo que brinda anima
 import { MatMenuModule } from '@angular/material/menu';//Modulo para menus desplegables
 import { MatSidenavModule } from '@angular/material/sidenav';//Modulo para crear menus deslizantes
 import { MatListModule } from '@angular/material/list';//Modulos para crear listas
-import { NgbActiveModal, NgbModal, NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
-import { ModalModule } from 'ngx-bootstrap/modal';
-
-
+import {matDialogAnimations, MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -36,8 +33,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     MatSidenavModule,
     MatListModule,
     MatMenuModule,
-    NgbModalModule,
-    ModalModule.forRoot()
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -45,7 +41,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 export class AppModule {
   constructor(library: FaIconLibrary) {//Importacion de los iconos Fa y Fish
-    library.addIcons(faFilm,faFish);
+    library.addIcons(faFilm,faFish); 
   }
  
  }
