@@ -15,6 +15,9 @@ import {MatRippleModule} from '@angular/material/core';//Modulo que brinda anima
 import { MatMenuModule } from '@angular/material/menu';//Modulo para menus desplegables
 import { MatSidenavModule } from '@angular/material/sidenav';//Modulo para crear menus deslizantes
 import { MatListModule } from '@angular/material/list';//Modulos para crear listas
+import { NgbActiveModal, NgbModal, NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 
 @NgModule({
@@ -32,7 +35,9 @@ import { MatListModule } from '@angular/material/list';//Modulos para crear list
     MatRippleModule,
     MatSidenavModule,
     MatListModule,
-    MatMenuModule
+    MatMenuModule,
+    NgbModalModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

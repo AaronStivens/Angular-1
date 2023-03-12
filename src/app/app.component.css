@@ -37,6 +37,18 @@ body {
     margin: 10px;
   }
 
+  .ImagenC{
+    width: 120px;
+    height: 100px;
+    margin: 15px;
+  }
+
+  hr{
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 20px 0;
+  }
+
   .sidenav-container {
     height: calc(100% - 80px);
     background-color: rgb(0, 0, 0);
@@ -110,5 +122,4 @@ body {
 
   }
 
-  
 
